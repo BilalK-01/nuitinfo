@@ -1,0 +1,49 @@
+*
+{
+	background-color: pink;
+}
+body{
+  background: url(bg.mp4);
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border: 50px;
+  border-radius: 800px
+}
+h1{
+	color: #ffff62;
+	text-align: center;
+}
+.clignote  {
+   animation-duration: .3s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+}
+
+@keyframes clignoter {
+  0%   { opacity:1; }
+  2%   {opacity:0; }
+  100% { opacity:1; }
+}
+.suivant{
+	color: red;
+	background-color: purple;
+}
+p{
+  font-size: 55px;
+  font-weight: bold;
+  background-image: url(fond.jpg);
+  color: #fff;
+}
+.guerrir{
+  text-decoration: underline;
+}
